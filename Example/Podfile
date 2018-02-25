@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FAJsonParser_Example' do
+  pod 'FAJsonParser', :path => '../'
+
+  target 'FAJsonParser_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
