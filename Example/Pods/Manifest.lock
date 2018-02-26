@@ -1,0 +1,16 @@
+PODS:
+  - FAJsonParser (0.1.0)
+
+DEPENDENCIES:
+  - FAJsonParser (from `../`)
+
+EXTERNAL SOURCES:
+  FAJsonParser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FAJsonParser: b6236a2bec50fb5d36006a99e1440dd172c8d2b4
+
+PODFILE CHECKSUM: 449819671f3be71613d59901d8e3c95f026a8bbd
+
+COCOAPODS: 1.4.0

@@ -9,5 +9,5 @@
 @import UIKit;
 
 @interface FAViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextView *previewTextView;
 @end

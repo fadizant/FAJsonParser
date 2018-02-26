@@ -1,0 +1,6 @@
+framework module FAJsonParser {
+  umbrella header "FAJsonParser-umbrella.h"
+
+  export *
+  module * { export * }
+}

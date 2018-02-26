@@ -1,0 +1,6 @@
+framework module Pods_FAJsonParser_Example_FAJsonParser_Tests {
+  umbrella header "Pods-FAJsonParser_Example-FAJsonParser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
