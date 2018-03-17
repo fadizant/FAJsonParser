@@ -40,7 +40,7 @@
                 "urls": []
             }
         },
-        "protected": false,
+        "protected": true,
         "followers_count": 2145,
         "friends_count": 18,
         "listed_count": 328,

@@ -18,4 +18,11 @@
  */
 -(NSMutableDictionary*)Dictionary:(NSError**)error;
 
+/**
+ * Generate NSMutableDictionary from Object [Proparty name or Getter as Key :and: Proparty Value as value for this key]
+ *
+ * @return NSMutableDictionary filled from Object
+ */
+-(NSMutableDictionary*)Dictionary;
+
 @end

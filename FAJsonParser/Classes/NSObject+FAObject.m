@@ -12,6 +12,10 @@
 
 @implementation NSObject (FAObject)
 
+-(NSMutableDictionary*)Dictionary{
+    return [self Dictionary:nil];
+}
+
 -(NSMutableDictionary*)Dictionary:(NSError**)error
 {
     NSMutableDictionary *returnValue = [[NSMutableDictionary alloc]init];

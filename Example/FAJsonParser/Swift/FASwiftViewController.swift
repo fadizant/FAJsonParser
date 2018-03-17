@@ -34,6 +34,17 @@ class FASwiftViewController: UIViewController {
         
         // parse JSON to object
         let object = FAObject_Swift()
+        
+        // fill JSON to object
+        dict.fillThisObject(object)
+        
+        // generate dictionary from object
+        let dictFromObject = object.dictionary()
+        
+        // print dictionary
+        previewTextView.text = dictFromObject?.description
+        
+        /* with error to return if happend
         do{
             try dict.fillThisObject(object)
             
@@ -49,7 +60,7 @@ class FASwiftViewController: UIViewController {
         catch let error as NSError{
             print(error.userInfo)
         }
-        
+        */
 
     }
     

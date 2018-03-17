@@ -11,6 +11,7 @@
 
 @interface FAObject : NSObject
 @property (nonatomic,retain,getter=created_at) NSString *createdAt;
+
 @property (nonatomic,getter=id) long ID;
 @property (nonatomic,retain) NSString *id_str;
 @property (nonatomic,retain) NSString *text;

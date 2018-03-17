@@ -12,6 +12,11 @@
 #import <objc/runtime.h>
 
 @implementation NSArray (FAArray)
+
+-(NSMutableArray*)dictionaryArray{
+    return [self dictionaryArray:nil];
+}
+
 -(NSMutableArray*)dictionaryArray:(NSError**)error
 {
     @try {
@@ -94,6 +99,10 @@
     @finally {
         
     }
+}
+
+-(NSMutableArray*)fillWithClass:(Class)class{
+    return [self fillWithClass:class Error:nil];
 }
 
 -(NSMutableArray*)fillWithClass:(Class)class Error:(NSError**)error

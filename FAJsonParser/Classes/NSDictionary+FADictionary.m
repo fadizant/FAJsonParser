@@ -13,6 +13,10 @@
 
 @implementation NSDictionary (FADictionary)
 
+-(id)FillThisObject:(id)object{
+    return [self FillThisObject:object Error:nil];
+}
+
 -(id)FillThisObject:(id)object Error:(NSError**)error
 {
     @try {
@@ -108,14 +112,44 @@
                     
                 }
                 else if ([value isKindOfClass:[NSNumber class]]) {
-                    value = [value isEqual:[NSNull null]] || !value ? 0 : value;
                     
-                    [object setValue:(NSNumber*)value forKey:propertyName];
+                    if ([propertyType isEqualToString:@"NSString"]) {
+                        
+                        value = [value isEqual:[NSNull null]] || !value ? @"0" : [value stringValue];
+                        [object setValue:value forKey:propertyName];
+                        
+                    }else {
+                        value = [value isEqual:[NSNull null]] || !value ? 0 : value;
+                        [object setValue:(NSNumber*)value forKey:propertyName];
+                    }
+                    
                 }
                 else if ([propertyType isEqualToString:@"NSString"] ||
-                         [propertyType isEqualToString:@"NSDate"])
+                         [propertyType isEqualToString:@"NSDate"] ||
+                         [value isKindOfClass:[NSString class]])
                 {
-                    [object setValue:value forKey:propertyName];
+                    // check if proprty is type of number by Type Encoding
+                    if ([propertyType isEqualToString:propertyTypeEncodingint]||
+                        [propertyType isEqualToString:propertyTypeEncodingshort]||
+                        [propertyType isEqualToString:propertyTypeEncodinglong]||
+                        [propertyType isEqualToString:propertyTypeEncodinglongLong]||
+                        [propertyType isEqualToString:propertyTypeEncodingunsignedInt]||
+                        [propertyType isEqualToString:propertyTypeEncodingunsignedShort]||
+                        [propertyType isEqualToString:propertyTypeEncodingunsignedLong]||
+                        [propertyType isEqualToString:propertyTypeEncodingunsignedLongLong]||
+                        [propertyType isEqualToString:propertyTypeEncodingfloat]||
+                        [propertyType isEqualToString:propertyTypeEncodingdouble]||
+                        [propertyType isEqualToString:propertyTypeEncodingBool]) {
+                        
+                        NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+                        f.numberStyle = NSNumberFormatterNoStyle;
+                        NSNumber *number = [f numberFromString:value];
+                        
+                        [object setValue:number forKey:propertyName];
+                    }else{
+                        [object setValue:value forKey:propertyName];
+                    }
+                    
                 }
                 else
                 {
@@ -214,3 +248,5 @@
 }
 
 @end
+
+
