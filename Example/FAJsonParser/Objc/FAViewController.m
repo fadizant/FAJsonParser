@@ -40,11 +40,19 @@
     [dict FillThisObject:object Error:&error];
     
     if (!error) {
+        // Save object in UserDefaults
+        NSLog(@"Object saved ? %@",[object SaveWithKey:@"objectKey"]  ? @"YES" : @"NO");
+        
+        //load object from UserDefaults
+        FAObject *newObject = [FAObject new];
+        NSLog(@"Object loaded ? %@",[newObject LoadWithKey:@"objectKey"]  ? @"YES" : @"NO");
+        
         // generate dictionary from object
-        NSDictionary *dictFromObject = [object Dictionary:&error];
+        NSDictionary *dictFromObject = [newObject Dictionary:&error];
         if (!error)
         {
             _previewTextView.text = dictFromObject.description;
+            NSLog(@"%@", dictFromObject.description);
         }
     }
 }

@@ -200,4 +200,27 @@
     }
     return Info;
 }
+
+-(BOOL)SaveWithKey:(NSString*)key{
+    NSError *error;
+    NSDictionary * dic = [self Dictionary:&error];
+    if (error) {
+        return NO;
+    } else {
+        [[NSUserDefaults standardUserDefaults] setObject:dic forKey:key];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        return YES;
+    }
+}
+
+-(BOOL)LoadWithKey:(NSString*)key{
+    NSError *error;
+    NSMutableDictionary *dic = [[[NSUserDefaults standardUserDefaults] objectForKey:key] mutableCopy];
+    [dic FillThisObject:self Error:&error];
+    if (error) {
+        return NO;
+    } else {
+        return YES;
+    }
+}
 @end

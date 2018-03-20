@@ -13,6 +13,7 @@ FAJsonParser can fill your JSON date to your object matching JSON keys with prop
 FAJsonParser use ObjC runtime to parse data, so you need to use @objc in swift4.  
 you can use inheritance FAJsonParser can detect superclasses.   
 FAJsonParser can parse NSObject only.
+Save and load object from UserDefaults by key.
 
 ### declare property
 
@@ -66,21 +67,27 @@ var Description = ""
 
 ### ObjC
 ```ruby
-    // JSON Data
-    NSDictionary *dict = [[NSMutableDictionary alloc]init];
+    // get JSON from file
+    NSDictionary *dict = [self JSONFromFile];
     
-    // you must initial your object
+    // parse JSON to object
     FAObject *object = [FAObject new];
     NSError *error;
-    // parse JSON to object 
     [dict FillThisObject:object Error:&error];
     
     if (!error) {
+        // Save object in UserDefaults
+        NSLog(@"Object saved ? %@",[object SaveWithKey:@"objectKey"]  ? @"YES" : @"NO");
+        
+        //load object from UserDefaults
+        FAObject *newObject = [FAObject new];
+        NSLog(@"Object loaded ? %@",[newObject LoadWithKey:@"objectKey"]  ? @"YES" : @"NO");
+        
         // generate dictionary from object
-        NSDictionary *dictFromObject = [object Dictionary:&error];
+        NSDictionary *dictFromObject = [newObject Dictionary:&error];
         if (!error)
         {
-            NSlog(dictFromObject.description);
+            NSLog(@"%@", dictFromObject.description);
         }
     }
 ```
@@ -89,36 +96,25 @@ var Description = ""
 ```ruby
     // get JSON from file
     let dict = JSONFromFile()
-
+    
     // parse JSON to object
     let object = FAObject_Swift()
-
+    
     // fill JSON to object
     dict.fillThisObject(object)
-
+    
+    // Save object in UserDefaults
+    print("Object saved ? \(object.save(withKey: "objectKey_swift") ? "True" : "False")")
+    
+    //load object from UserDefaults
+    let newObject = FAObject_Swift()
+    print("Object loaded ? \(newObject.load(withKey: "objectKey_swift") ? "True" : "False")")
+    
     // generate dictionary from object
-    let dictFromObject = object.dictionary()
-
+    let dictFromObject = newObject.dictionary()
+    
     // print dictionary
-    previewTextView.text = dictFromObject?.description
-
-    /* with error to return if happened
-    do{
-        try dict.fillThisObject(object)
-
-        // generate dictionary from object
-        do{
-            let dictFromObject = try object.dictionary()
-            previewTextView.text = dictFromObject.description
-        }
-        catch let error as NSError{
-            print(error.userInfo)
-        }
-    }
-    catch let error as NSError{
-        print(error.userInfo)
-    }
-    */
+    print(dictFromObject?.description ?? "")
 ```
 ## Installation
 

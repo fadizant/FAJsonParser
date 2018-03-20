@@ -25,4 +25,22 @@
  */
 -(NSMutableDictionary*)Dictionary;
 
+/**
+ * Save object in UserDefaults (cache) as Dictionary by key
+ *
+ * @param key reference to your object
+ *
+ * @return if succeeded or failed
+ */
+-(BOOL)SaveWithKey:(NSString*)key;
+
+/**
+ * Load object from UserDefaults (cache) by key
+ *
+ * @param key reference to your object
+ *
+ * @return if succeeded or failed
+ */
+-(BOOL)LoadWithKey:(NSString*)key;
+
 @end

@@ -38,11 +38,19 @@ class FASwiftViewController: UIViewController {
         // fill JSON to object
         dict.fillThisObject(object)
         
+        // Save object in UserDefaults
+        print("Object saved ? \(object.save(withKey: "objectKey_swift") ? "True" : "False")")
+        
+        //load object from UserDefaults
+        let newObject = FAObject_Swift()
+        print("Object loaded ? \(newObject.load(withKey: "objectKey_swift") ? "True" : "False")")
+        
         // generate dictionary from object
-        let dictFromObject = object.dictionary()
+        let dictFromObject = newObject.dictionary()
         
         // print dictionary
         previewTextView.text = dictFromObject?.description
+        print(dictFromObject?.description ?? "")
         
         /* with error to return if happend
         do{
