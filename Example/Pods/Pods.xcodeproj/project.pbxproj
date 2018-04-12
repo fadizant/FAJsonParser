@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039C386B937BB8CD1B5EFADCE79F28C5 /* NSArray+FAArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF7EA79C392CDA83C09C7A52F65291 /* NSArray+FAArray.m */; };
+		05234A61858E26E9B45B10DDC7D5CA01 /* FAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F98DB9B6040E780C9DC3327C6A53C93 /* FAJsonParser-dummy.m */; };
+		1A7433BC8A43B6D932A8729AA6E20130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E2486CDADF894A555FD786BB3D829EB /* NSDictionary+FADictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A33D231D8EDE838D8661CD793DD39CDD /* NSDictionary+FADictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2743993AC0D0C6979ED27326844C9439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2DE5C9EB6DCAFC98DF4564B16CEC6AE7 /* NSObject+FAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE0745A0B6A69DBA4F659EF54FE13D5 /* NSObject+FAObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		328636DA05E4C1B2C8AC48975B55558D /* NSArray+FAArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE0D925C51ACAA74903F9A27A0DCF9F /* NSArray+FAArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3510AB5A2A168E37ED92A57504C2D4A3 /* FAJsonParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE83E5E4EDA88FF7B93CF6F69F6406D /* FAJsonParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36C980AF228C0763B49FAE55B82B73DC /* Pods-FAJsonParser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFEDDBA47D7EEF82A997DBFAE41D27D /* Pods-FAJsonParser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C4798302F5DAD797272BD15CDECDAEA /* FAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 402BC04362363633BE120BA0A12E42A6 /* FAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FB0076B64E25E9C851A5D933888FC86 /* FAJsonParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C27DE8A4B04CF0A3B79B1AFAB4C198 /* FAJsonParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450B6159C921772412DC186573E49A24 /* NSData+FAJsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EE99DABBA48A1C56E46FF385FA1BF8 /* NSData+FAJsonData.m */; };
+		6B7EFDA225FDEFD68A119C73F320DCC0 /* NSArray+FAArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AA0D5E12904F9B93C69C2D1A0B663C /* NSArray+FAArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7012D81580016683A25D161DE1B3F7C7 /* Pods-FAJsonParser_Example-FAJsonParser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BE3FF10956490E4139E08973A01D7 /* Pods-FAJsonParser_Example-FAJsonParser_Tests-dummy.m */; };
+		7E3EAEDE10B1703C8FF140E87BBE4EEB /* FAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BA1040B4363EF20FF09F77F43D4F77 /* FAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84C5122B7D4AE05B84E18E1B645DED37 /* Pods-FAJsonParser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9473A95CDAE87405A1C3035E40F003AF /* Pods-FAJsonParser_Example-dummy.m */; };
-		869172675712665806FD3456569B5DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		86D8DF8A8A255A04C1C26CDC06A30649 /* NSArray+FAArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A42071A962B262A57DB5E7400AC935 /* NSArray+FAArray.m */; };
 		8940CAB41DF9ABFE0F13C7527379DDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		91DB59E7E72B44E9F8D9A953486696DB /* FAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4292E54097D0680247723B6DEE6C2 /* FAJsonParser-dummy.m */; };
-		96C5978C0572BD03C056A5791E1C4A57 /* NSDictionary+FADictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C86040ABBB214774A3A98CEB42ECF16F /* NSDictionary+FADictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99BE99133EF9A56D682235878B678AC7 /* Pods-FAJsonParser_Example-FAJsonParser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3A32DBE5288A62A1F4104040DCFE0E /* Pods-FAJsonParser_Example-FAJsonParser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE4B9FA687501837466ED6C856F5888F /* NSObject+FAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B000060B9C3298E9E2DCBF2F1AC57BB /* NSObject+FAObject.m */; };
-		F3632ECC2DB2E8FBF3BA7BB2C3075FA1 /* NSDictionary+FADictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ACABA4ED9D9B44CFD4C3373E11BB9329 /* NSDictionary+FADictionary.m */; };
+		9F6B706CAE6FFB920C123B0B1804D892 /* NSObject+FAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C113F3DD19DC8D7826C09B46FE0D2161 /* NSObject+FAObject.m */; };
+		A5CBF4AAD67C1B8FC3409CA93175ED63 /* NSObject+FAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AC263FA8924D8B08A7AF14DDCC9AB187 /* NSObject+FAObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A778757500212C899D46246BAA67D7 /* NSData+FAJsonData.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E4D8676690075F195BDD386412CC23 /* NSData+FAJsonData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23C490C28DE4A87A20346C2597A43B9 /* NSDictionary+FADictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F71DA76EE9E0025F90FD0FE95F5F2FB /* NSDictionary+FADictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,63 +32,73 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 290E40B7DB7DBE51A5B6DA94FF333988;
+			remoteGlobalIDString = B882EE2E0E8C7E2BE4A3C7D352890728;
 			remoteInfo = FAJsonParser;
 		};
 		AC23A38A33DF6C5A36B0A591C0FF324A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 290E40B7DB7DBE51A5B6DA94FF333988;
+			remoteGlobalIDString = B882EE2E0E8C7E2BE4A3C7D352890728;
 			remoteInfo = FAJsonParser;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0487E41F5279397DBA81BD9304724624 /* Pods-FAJsonParser_Example-FAJsonParser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0DE0745A0B6A69DBA4F659EF54FE13D5 /* NSObject+FAObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FAObject.h"; path = "FAJsonParser/Classes/NSObject+FAObject.h"; sourceTree = "<group>"; };
-		10DC887B43C51B77DDCBF782F6CB9E65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		199491B40DF48CA18CBBA19E95045B35 /* Pods_FAJsonParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAJsonParser_Example.framework; path = "Pods-FAJsonParser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0739ED9D4140C38CF81574B903B3AC8C /* FAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAJsonParser.xcconfig; sourceTree = "<group>"; };
+		199491B40DF48CA18CBBA19E95045B35 /* Pods_FAJsonParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAJsonParser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3A32DBE5288A62A1F4104040DCFE0E /* Pods-FAJsonParser_Example-FAJsonParser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-umbrella.h"; sourceTree = "<group>"; };
-		25F4292E54097D0680247723B6DEE6C2 /* FAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAJsonParser-dummy.m"; sourceTree = "<group>"; };
+		28EF7EA79C392CDA83C09C7A52F65291 /* NSArray+FAArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FAArray.m"; path = "FAJsonParser/Classes/NSArray+FAArray.m"; sourceTree = "<group>"; };
 		2BFEDDBA47D7EEF82A997DBFAE41D27D /* Pods-FAJsonParser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAJsonParser_Example-umbrella.h"; sourceTree = "<group>"; };
-		2DAB31722B838DE6DA8C95C9E3BB1290 /* FAJsonParser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FAJsonParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2DE0D925C51ACAA74903F9A27A0DCF9F /* NSArray+FAArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FAArray.h"; path = "FAJsonParser/Classes/NSArray+FAArray.h"; sourceTree = "<group>"; };
 		2E7BE3FF10956490E4139E08973A01D7 /* Pods-FAJsonParser_Example-FAJsonParser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-dummy.m"; sourceTree = "<group>"; };
-		2F998AE5A039EA7FAD7B9778C5AA6FDD /* FAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAJsonParser.xcconfig; sourceTree = "<group>"; };
-		35A42071A962B262A57DB5E7400AC935 /* NSArray+FAArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FAArray.m"; path = "FAJsonParser/Classes/NSArray+FAArray.m"; sourceTree = "<group>"; };
+		38E4D8676690075F195BDD386412CC23 /* NSData+FAJsonData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FAJsonData.h"; path = "FAJsonParser/Classes/NSData+FAJsonData.h"; sourceTree = "<group>"; };
 		3AA14CFF6E761F79BA7E52AE896C3010 /* Pods-FAJsonParser_Example-FAJsonParser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests.modulemap"; sourceTree = "<group>"; };
-		402BC04362363633BE120BA0A12E42A6 /* FAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAJsonParser.h; path = FAJsonParser/Classes/FAJsonParser.h; sourceTree = "<group>"; };
-		46293096708F861137321CA627878E7D /* FAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAJsonParser-prefix.pch"; sourceTree = "<group>"; };
-		49C5A2AED1032242EE7F3A295802A7B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		52C27DE8A4B04CF0A3B79B1AFAB4C198 /* FAJsonParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAJsonParser-umbrella.h"; sourceTree = "<group>"; };
 		5550789E48BC8B229F2A1BA67190E84C /* Pods-FAJsonParser_Example-FAJsonParser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B000060B9C3298E9E2DCBF2F1AC57BB /* NSObject+FAObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FAObject.m"; path = "FAJsonParser/Classes/NSObject+FAObject.m"; sourceTree = "<group>"; };
-		643D86EE868DE6A192F3563E419C95FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2C9DE074A35B778F8F09C00D61721B /* FAJsonParser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FAJsonParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CE83E5E4EDA88FF7B93CF6F69F6406D /* FAJsonParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAJsonParser-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68881C1B7CDBBE4896EBEA6E2A7F6E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		688B1DF46D211353AB4E0C567BF17AFD /* Pods-FAJsonParser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAJsonParser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AA1954A354E9F66E172E4B63A10CF7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6E43C4A7BF2EA7B749244000D54D4A9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F98DB9B6040E780C9DC3327C6A53C93 /* FAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAJsonParser-dummy.m"; sourceTree = "<group>"; };
 		73FCC3064C3859DF16DD47997BC92477 /* Pods-FAJsonParser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAJsonParser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79BA1040B4363EF20FF09F77F43D4F77 /* FAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAJsonParser.h; path = FAJsonParser/Classes/FAJsonParser.h; sourceTree = "<group>"; };
 		7F710A521377ABBC9E3AECF7A1745650 /* Pods-FAJsonParser_Example-FAJsonParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F71DA76EE9E0025F90FD0FE95F5F2FB /* NSDictionary+FADictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FADictionary.m"; path = "FAJsonParser/Classes/NSDictionary+FADictionary.m"; sourceTree = "<group>"; };
+		82942A2946356CE8E644D709FA920993 /* FAJsonParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAJsonParser.modulemap; sourceTree = "<group>"; };
 		8566F0346454441B887B2043C7DF446C /* Pods-FAJsonParser_Example-FAJsonParser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-resources.sh"; sourceTree = "<group>"; };
 		8F730410D8C82F052B290797C229050C /* Pods-FAJsonParser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAJsonParser_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9473A95CDAE87405A1C3035E40F003AF /* Pods-FAJsonParser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAJsonParser_Example-dummy.m"; sourceTree = "<group>"; };
+		97AA0D5E12904F9B93C69C2D1A0B663C /* NSArray+FAArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FAArray.h"; path = "FAJsonParser/Classes/NSArray+FAArray.h"; sourceTree = "<group>"; };
 		97DA39FFC8CEDE59B062511641AA332F /* Pods-FAJsonParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAJsonParser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ACABA4ED9D9B44CFD4C3373E11BB9329 /* NSDictionary+FADictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FADictionary.m"; path = "FAJsonParser/Classes/NSDictionary+FADictionary.m"; sourceTree = "<group>"; };
-		B5E144F8A6810A2F49D506DF9F4854C8 /* FAJsonParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAJsonParser.modulemap; sourceTree = "<group>"; };
-		C86040ABBB214774A3A98CEB42ECF16F /* NSDictionary+FADictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FADictionary.h"; path = "FAJsonParser/Classes/NSDictionary+FADictionary.h"; sourceTree = "<group>"; };
+		A1EE99DABBA48A1C56E46FF385FA1BF8 /* NSData+FAJsonData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+FAJsonData.m"; path = "FAJsonParser/Classes/NSData+FAJsonData.m"; sourceTree = "<group>"; };
+		A33D231D8EDE838D8661CD793DD39CDD /* NSDictionary+FADictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FADictionary.h"; path = "FAJsonParser/Classes/NSDictionary+FADictionary.h"; sourceTree = "<group>"; };
+		AC263FA8924D8B08A7AF14DDCC9AB187 /* NSObject+FAObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FAObject.h"; path = "FAJsonParser/Classes/NSObject+FAObject.h"; sourceTree = "<group>"; };
+		C113F3DD19DC8D7826C09B46FE0D2161 /* NSObject+FAObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FAObject.m"; path = "FAJsonParser/Classes/NSObject+FAObject.m"; sourceTree = "<group>"; };
 		C88A4CFE04CBC6F6812B88BD3052C710 /* Pods-FAJsonParser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAJsonParser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C89322DCD05D16CAFA0E26CB057E2481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DB736FCE0EEC895D1674F501832DDB /* Pods-FAJsonParser_Example-FAJsonParser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		CCF9E9B3F96472B54047195F3C9120E9 /* Pods_FAJsonParser_Example_FAJsonParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAJsonParser_Example_FAJsonParser_Tests.framework; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9E9B3F96472B54047195F3C9120E9 /* Pods_FAJsonParser_Example_FAJsonParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAJsonParser_Example_FAJsonParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26972CD7C0929FE02D5E59778642441 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31FD5AC7C30623D24F87CF14ABD4CC1 /* Pods-FAJsonParser_Example-FAJsonParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAJsonParser_Example-FAJsonParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE69D9312FB260CB6282848C972DF02F /* Pods-FAJsonParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAJsonParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E9119E6DB6A904C7DF1AB4B8A1B6ECFE /* FAJsonParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAJsonParser.framework; path = FAJsonParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9119E6DB6A904C7DF1AB4B8A1B6ECFE /* FAJsonParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAJsonParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F433ED9DAE4669B1ACA2C6DD8D7B1795 /* FAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAJsonParser-prefix.pch"; sourceTree = "<group>"; };
 		F76FE7C1318C2B49221DF2FD01D0390D /* Pods-FAJsonParser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAJsonParser_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28AD9C384B02F136C2EF44C5BD8CE910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7433BC8A43B6D932A8729AA6E20130 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72D41C42DA535039750B402E27074BC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,36 +115,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E85C0BBAEE402E5B2510B10E0B9254BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				869172675712665806FD3456569B5DBC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55F4D8900CBED9ED384ED64C90A9C79F /* Support Files */ = {
+		3E10EA60CB54B61F7DA412228FDCDD9F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5E144F8A6810A2F49D506DF9F4854C8 /* FAJsonParser.modulemap */,
-				2F998AE5A039EA7FAD7B9778C5AA6FDD /* FAJsonParser.xcconfig */,
-				25F4292E54097D0680247723B6DEE6C2 /* FAJsonParser-dummy.m */,
-				46293096708F861137321CA627878E7D /* FAJsonParser-prefix.pch */,
-				52C27DE8A4B04CF0A3B79B1AFAB4C198 /* FAJsonParser-umbrella.h */,
-				643D86EE868DE6A192F3563E419C95FF /* Info.plist */,
+				82942A2946356CE8E644D709FA920993 /* FAJsonParser.modulemap */,
+				0739ED9D4140C38CF81574B903B3AC8C /* FAJsonParser.xcconfig */,
+				6F98DB9B6040E780C9DC3327C6A53C93 /* FAJsonParser-dummy.m */,
+				F433ED9DAE4669B1ACA2C6DD8D7B1795 /* FAJsonParser-prefix.pch */,
+				5CE83E5E4EDA88FF7B93CF6F69F6406D /* FAJsonParser-umbrella.h */,
+				D26972CD7C0929FE02D5E59778642441 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FAJsonParser";
+			sourceTree = "<group>";
+		};
+		7A5B837455EA08DEC2B098BB866EF5EB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DF5E8F8205A3F42E023C2C65C6AE60 /* FAJsonParser */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BEB719C60371489ADBCE967EE4C96D83 /* Development Pods */,
+				7A5B837455EA08DEC2B098BB866EF5EB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BBFB66D5E23CC36A8C6F623AE51003A7 /* Products */,
 				89AB3D58E6BE7F5503CA938B7723DEB3 /* Targets Support Files */,
@@ -157,6 +169,25 @@
 			path = "Target Support Files/Pods-FAJsonParser_Example";
 			sourceTree = "<group>";
 		};
+		88DF5E8F8205A3F42E023C2C65C6AE60 /* FAJsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				79BA1040B4363EF20FF09F77F43D4F77 /* FAJsonParser.h */,
+				97AA0D5E12904F9B93C69C2D1A0B663C /* NSArray+FAArray.h */,
+				28EF7EA79C392CDA83C09C7A52F65291 /* NSArray+FAArray.m */,
+				38E4D8676690075F195BDD386412CC23 /* NSData+FAJsonData.h */,
+				A1EE99DABBA48A1C56E46FF385FA1BF8 /* NSData+FAJsonData.m */,
+				A33D231D8EDE838D8661CD793DD39CDD /* NSDictionary+FADictionary.h */,
+				7F71DA76EE9E0025F90FD0FE95F5F2FB /* NSDictionary+FADictionary.m */,
+				AC263FA8924D8B08A7AF14DDCC9AB187 /* NSObject+FAObject.h */,
+				C113F3DD19DC8D7826C09B46FE0D2161 /* NSObject+FAObject.m */,
+				FC275221CB6C61C174DE6048356B28C5 /* Pod */,
+				3E10EA60CB54B61F7DA412228FDCDD9F /* Support Files */,
+			);
+			name = FAJsonParser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		89AB3D58E6BE7F5503CA938B7723DEB3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,33 +195,6 @@
 				CF625BEEE422413D25792B76ADEB0C05 /* Pods-FAJsonParser_Example-FAJsonParser_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AED0EFFED8F50CE7AF0578247AA4B590 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2DAB31722B838DE6DA8C95C9E3BB1290 /* FAJsonParser.podspec */,
-				49C5A2AED1032242EE7F3A295802A7B7 /* LICENSE */,
-				10DC887B43C51B77DDCBF782F6CB9E65 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B727EDA91D8A7A2F4354516E57DD307E /* FAJsonParser */ = {
-			isa = PBXGroup;
-			children = (
-				402BC04362363633BE120BA0A12E42A6 /* FAJsonParser.h */,
-				2DE0D925C51ACAA74903F9A27A0DCF9F /* NSArray+FAArray.h */,
-				35A42071A962B262A57DB5E7400AC935 /* NSArray+FAArray.m */,
-				C86040ABBB214774A3A98CEB42ECF16F /* NSDictionary+FADictionary.h */,
-				ACABA4ED9D9B44CFD4C3373E11BB9329 /* NSDictionary+FADictionary.m */,
-				0DE0745A0B6A69DBA4F659EF54FE13D5 /* NSObject+FAObject.h */,
-				5B000060B9C3298E9E2DCBF2F1AC57BB /* NSObject+FAObject.m */,
-				AED0EFFED8F50CE7AF0578247AA4B590 /* Pod */,
-				55F4D8900CBED9ED384ED64C90A9C79F /* Support Files */,
-			);
-			name = FAJsonParser;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		BBFB66D5E23CC36A8C6F623AE51003A7 /* Products */ = {
@@ -209,14 +213,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BEB719C60371489ADBCE967EE4C96D83 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B727EDA91D8A7A2F4354516E57DD307E /* FAJsonParser */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF625BEEE422413D25792B76ADEB0C05 /* Pods-FAJsonParser_Example-FAJsonParser_Tests */ = {
@@ -245,6 +241,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FC275221CB6C61C174DE6048356B28C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5B2C9DE074A35B778F8F09C00D61721B /* FAJsonParser.podspec */,
+				68881C1B7CDBBE4896EBEA6E2A7F6E76 /* LICENSE */,
+				6AA1954A354E9F66E172E4B63A10CF7E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,18 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		831093F57B8AEF0BE27B681C73CC989A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FB0076B64E25E9C851A5D933888FC86 /* FAJsonParser-umbrella.h in Headers */,
-				3C4798302F5DAD797272BD15CDECDAEA /* FAJsonParser.h in Headers */,
-				328636DA05E4C1B2C8AC48975B55558D /* NSArray+FAArray.h in Headers */,
-				96C5978C0572BD03C056A5791E1C4A57 /* NSDictionary+FADictionary.h in Headers */,
-				2DE5C9EB6DCAFC98DF4564B16CEC6AE7 /* NSObject+FAObject.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D33C90F7D3FF473F8BF4C6A5207CE90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,26 +270,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C559F2075F2F0A8467904852F979EBB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3510AB5A2A168E37ED92A57504C2D4A3 /* FAJsonParser-umbrella.h in Headers */,
+				7E3EAEDE10B1703C8FF140E87BBE4EEB /* FAJsonParser.h in Headers */,
+				6B7EFDA225FDEFD68A119C73F320DCC0 /* NSArray+FAArray.h in Headers */,
+				B3A778757500212C899D46246BAA67D7 /* NSData+FAJsonData.h in Headers */,
+				1E2486CDADF894A555FD786BB3D829EB /* NSDictionary+FADictionary.h in Headers */,
+				A5CBF4AAD67C1B8FC3409CA93175ED63 /* NSObject+FAObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		290E40B7DB7DBE51A5B6DA94FF333988 /* FAJsonParser */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E44658573FEF3FB0FA2195B7F17FDDCB /* Build configuration list for PBXNativeTarget "FAJsonParser" */;
-			buildPhases = (
-				3E35197615CD3F1BFAD281F200EB83AF /* Sources */,
-				E85C0BBAEE402E5B2510B10E0B9254BB /* Frameworks */,
-				831093F57B8AEF0BE27B681C73CC989A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FAJsonParser;
-			productName = FAJsonParser;
-			productReference = E9119E6DB6A904C7DF1AB4B8A1B6ECFE /* FAJsonParser.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		71C0AAD78483AA8508CAACB6874C498B /* Pods-FAJsonParser_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C24823E1E103408DB73948D9795C970 /* Build configuration list for PBXNativeTarget "Pods-FAJsonParser_Example" */;
@@ -312,6 +302,23 @@
 			name = "Pods-FAJsonParser_Example";
 			productName = "Pods-FAJsonParser_Example";
 			productReference = 199491B40DF48CA18CBBA19E95045B35 /* Pods_FAJsonParser_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B882EE2E0E8C7E2BE4A3C7D352890728 /* FAJsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFC7C67FF4C7E999E23A74BDD1B2F56 /* Build configuration list for PBXNativeTarget "FAJsonParser" */;
+			buildPhases = (
+				8EA8F2A9F50588FC4E225B50061CA2D5 /* Sources */,
+				28AD9C384B02F136C2EF44C5BD8CE910 /* Frameworks */,
+				C559F2075F2F0A8467904852F979EBB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAJsonParser;
+			productName = FAJsonParser;
+			productReference = E9119E6DB6A904C7DF1AB4B8A1B6ECFE /* FAJsonParser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4F791593BA16FAC8883ABECA8869313 /* Pods-FAJsonParser_Example-FAJsonParser_Tests */ = {
@@ -353,7 +360,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				290E40B7DB7DBE51A5B6DA94FF333988 /* FAJsonParser */,
+				B882EE2E0E8C7E2BE4A3C7D352890728 /* FAJsonParser */,
 				71C0AAD78483AA8508CAACB6874C498B /* Pods-FAJsonParser_Example */,
 				C4F791593BA16FAC8883ABECA8869313 /* Pods-FAJsonParser_Example-FAJsonParser_Tests */,
 			);
@@ -369,14 +376,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E35197615CD3F1BFAD281F200EB83AF /* Sources */ = {
+		8EA8F2A9F50588FC4E225B50061CA2D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DB59E7E72B44E9F8D9A953486696DB /* FAJsonParser-dummy.m in Sources */,
-				86D8DF8A8A255A04C1C26CDC06A30649 /* NSArray+FAArray.m in Sources */,
-				F3632ECC2DB2E8FBF3BA7BB2C3075FA1 /* NSDictionary+FADictionary.m in Sources */,
-				DE4B9FA687501837466ED6C856F5888F /* NSObject+FAObject.m in Sources */,
+				05234A61858E26E9B45B10DDC7D5CA01 /* FAJsonParser-dummy.m in Sources */,
+				039C386B937BB8CD1B5EFADCE79F28C5 /* NSArray+FAArray.m in Sources */,
+				450B6159C921772412DC186573E49A24 /* NSData+FAJsonData.m in Sources */,
+				F23C490C28DE4A87A20346C2597A43B9 /* NSDictionary+FADictionary.m in Sources */,
+				9F6B706CAE6FFB920C123B0B1804D892 /* NSObject+FAObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,13 +402,13 @@
 		B55DCF7972DA431E87F844570136920E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAJsonParser;
-			target = 290E40B7DB7DBE51A5B6DA94FF333988 /* FAJsonParser */;
+			target = B882EE2E0E8C7E2BE4A3C7D352890728 /* FAJsonParser */;
 			targetProxy = AC23A38A33DF6C5A36B0A591C0FF324A /* PBXContainerItemProxy */;
 		};
 		F874B94F426B813184372DE4AD2D3880 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAJsonParser;
-			target = 290E40B7DB7DBE51A5B6DA94FF333988 /* FAJsonParser */;
+			target = B882EE2E0E8C7E2BE4A3C7D352890728 /* FAJsonParser */;
 			targetProxy = 284A91D232FCE5EB47C19BC9CD04DAEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -534,36 +542,6 @@
 			};
 			name = Debug;
 		};
-		5B30F6F8B02C7330824F39B72E057373 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F998AE5A039EA7FAD7B9778C5AA6FDD /* FAJsonParser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FAJsonParser/FAJsonParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAJsonParser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FAJsonParser/FAJsonParser.modulemap";
-				PRODUCT_NAME = FAJsonParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		691FFB1E36E3B306FA977C2E81C43A66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE69D9312FB260CB6282848C972DF02F /* Pods-FAJsonParser_Example.debug.xcconfig */;
@@ -654,6 +632,37 @@
 			};
 			name = Release;
 		};
+		94A6E78BFA5DE3B91C27DC37E0398E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0739ED9D4140C38CF81574B903B3AC8C /* FAJsonParser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAJsonParser/FAJsonParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAJsonParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAJsonParser/FAJsonParser.modulemap";
+				PRODUCT_NAME = FAJsonParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E36CC8B9B9CF200EC1B97ACBF171104 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97DA39FFC8CEDE59B062511641AA332F /* Pods-FAJsonParser_Example.release.xcconfig */;
@@ -687,9 +696,9 @@
 			};
 			name = Release;
 		};
-		D23294F689F6E2F339606D7E9CB70CDF /* Debug */ = {
+		B80621F7DBB4CEA3A3558D253540D583 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F998AE5A039EA7FAD7B9778C5AA6FDD /* FAJsonParser.xcconfig */;
+			baseConfigurationReference = 0739ED9D4140C38CF81574B903B3AC8C /* FAJsonParser.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -710,6 +719,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -746,11 +756,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E44658573FEF3FB0FA2195B7F17FDDCB /* Build configuration list for PBXNativeTarget "FAJsonParser" */ = {
+		8FFC7C67FF4C7E999E23A74BDD1B2F56 /* Build configuration list for PBXNativeTarget "FAJsonParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D23294F689F6E2F339606D7E9CB70CDF /* Debug */,
-				5B30F6F8B02C7330824F39B72E057373 /* Release */,
+				B80621F7DBB4CEA3A3558D253540D583 /* Debug */,
+				94A6E78BFA5DE3B91C27DC37E0398E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc class FAObject_Swift: NSObject {
+@objc (FAObject_Swift) class FAObject_Swift: NSObject {
 
     @objc (created_at)
     var createdAt = ""
@@ -19,38 +19,38 @@ import UIKit
     @objc var id_str = ""
     @objc var text = ""
     @objc var truncated = false
-    @objc var entities = Entity()
+    @objc var entities = Entity_Swift()
     @objc var source = ""
-    @objc var user = User()
+    @objc var user = User_Swift()
     
 }
 
-@objc class Entity:NSObject {
+@objc (Entity_Swift) class Entity_Swift:NSObject {
     
-    @objc (hashtags$Hashtag)
-    var hashtags = Array<Hashtag>()
+    @objc (hashtags$Hashtag_Swift)
+    var hashtags = Array<Hashtag_Swift>()
     
-    @objc (urls$Url)
-    var urls = Array<Url>()
+    @objc (urls$Url_Swift)
+    var urls = Array<Url_Swift>()
     
 }
 
-@objc class IndicySuper:NSObject {
+@objc (IndicySuper_Swift) class IndicySuper_Swift:NSObject {
     @objc (indices$NSNumber)
     var indices = Array<Int>()
 }
 
-@objc class Hashtag:IndicySuper {
+@objc (Hashtag_Swift) class Hashtag_Swift:IndicySuper_Swift {
     @objc var text = ""
 }
 
-@objc class Url:IndicySuper {
+@objc (Url_Swift) class Url_Swift:IndicySuper_Swift {
     @objc var url = ""
     @objc var expanded_url = ""
     @objc var display_url = ""
 }
 
-@objc class User:NSObject {
+@objc (User_Swift) class User_Swift:NSObject {
     @objc (id)
     var ID = 0
     
@@ -63,7 +63,7 @@ import UIKit
     var Description = ""
     
     @objc var url = ""
-    @objc var entities = UserEntity()
+    @objc var entities = UserEntity_Swift()
     @objc var protected = false
     @objc var followers_count = 0
     @objc var friends_count = 0
@@ -74,15 +74,15 @@ import UIKit
     @objc var time_zone = ""
 }
 
-@objc class UserEntity:NSObject {
-    @objc var url = UserUrl()
+@objc (UserEntity_Swift) class UserEntity_Swift:NSObject {
+    @objc var url = UserUrl_Swift()
     @objc (description$Description)
-    var Description = UserUrl()
+    var Description = UserUrl_Swift()
 }
 
-@objc class UserUrl:NSObject {
-    @objc (urls$Url)
-    var urls = Array<Url>()
+@objc (UserUrl_Swift) class UserUrl_Swift:NSObject {
+    @objc (urls$Url_Swift)
+    var urls = Array<Url_Swift>()
 }
 
 

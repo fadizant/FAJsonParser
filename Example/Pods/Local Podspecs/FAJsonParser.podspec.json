@@ -1,7 +1,7 @@
 {
   "name": "FAJsonParser",
-  "version": "0.1.0",
-  "summary": "init FAJsonParser.",
+  "version": "0.1.2",
+  "summary": "Save and load object from UserDefaults by key",
   "homepage": "https://github.com/fadizant/FAJsonParser",
   "license": {
     "type": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/fadizant/FAJsonParser.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

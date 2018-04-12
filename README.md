@@ -14,6 +14,7 @@ FAJsonParser use ObjC runtime to parse data, so you need to use @objc in swift4.
 you can use inheritance FAJsonParser can detect superclasses.   
 FAJsonParser can parse NSObject only.
 Save and load object from UserDefaults by key.
+JsonParser can fill JSON values to your property even different types between them by casting (String to Int / Int to String)
 
 ### declare property
 
@@ -35,9 +36,9 @@ Save and load object from UserDefaults by key.
 @property (nonatomic,retain,setter=NSNumber:) NSArray *marks; 
 ```
 #### Swift4
-1 - you must add @objc to class as will for objC runtime can handle class info  
+1 - you must add @objc with class name to class as will for objC runtime can handle class info  
 ```ruby
-@objc class FAObject_Swift: NSObject {}
+@objc (FAObject_Swift) class FAObject_Swift: NSObject {}
 ```
 2 - you can use property name as JSON key               
 ```ruby
@@ -67,9 +68,6 @@ var Description = ""
 
 ### ObjC
 ```ruby
-    // get JSON from file
-    NSDictionary *dict = [self JSONFromFile];
-    
     // parse JSON to object
     FAObject *object = [FAObject new];
     NSError *error;
@@ -94,9 +92,6 @@ var Description = ""
 
 ### Swift4
 ```ruby
-    // get JSON from file
-    let dict = JSONFromFile()
-    
     // parse JSON to object
     let object = FAObject_Swift()
     

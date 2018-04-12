@@ -11,5 +11,6 @@
 #import "NSObject+FAObject.h"
 #import "NSDictionary+FADictionary.h"
 #import "NSArray+FAArray.h"
+#import "NSData+FAJsonData.h"
 
 #endif /* FAJsonParser_h */

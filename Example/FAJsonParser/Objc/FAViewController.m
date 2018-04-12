@@ -32,12 +32,16 @@
     [super viewWillAppear:animated];
     
     // get JSON from file
-    NSDictionary *dict = [self JSONFromFile];
+//    NSDictionary *dict = [self JSONFromFile];
+    
+    // read file
+    NSData *data = [self DataFromFile];
     
     // parse JSON to object
     FAObject *object = [FAObject new];
     NSError *error;
-    [dict FillThisObject:object Error:&error];
+//    [dict FillThisObject:object Error:&error];
+    [data FillThisObject:object Error:&error];
     
     if (!error) {
         // Save object in UserDefaults
@@ -62,6 +66,12 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"geojson"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     return [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+}
+
+- (NSData *)DataFromFile
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"geojson"];
+    return [NSData dataWithContentsOfFile:path];
 }
 
 @end

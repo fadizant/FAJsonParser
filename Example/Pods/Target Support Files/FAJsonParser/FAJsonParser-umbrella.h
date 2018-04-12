@@ -12,6 +12,7 @@
 
 #import "FAJsonParser.h"
 #import "NSArray+FAArray.h"
+#import "NSData+FAJsonData.h"
 #import "NSDictionary+FADictionary.h"
 #import "NSObject+FAObject.h"
 

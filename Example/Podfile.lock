@@ -1,5 +1,5 @@
 PODS:
-  - FAJsonParser (0.1.0)
+  - FAJsonParser (0.1.2)
 
 DEPENDENCIES:
   - FAJsonParser (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FAJsonParser: b6236a2bec50fb5d36006a99e1440dd172c8d2b4
+  FAJsonParser: b6b6f956c3bc98fea19e29baf91251f2863de0db
 
 PODFILE CHECKSUM: 449819671f3be71613d59901d8e3c95f026a8bbd
 
