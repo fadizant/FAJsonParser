@@ -2,7 +2,6 @@
 
 # FAJsonParser
 
-[![CI Status](http://img.shields.io/travis/fadizant/FAJsonParser.svg?style=flat)](https://travis-ci.org/fadizant/FAJsonParser)
 [![Version](https://img.shields.io/cocoapods/v/FAJsonParser.svg?style=flat)](http://cocoapods.org/pods/FAJsonParser)
 [![License](https://img.shields.io/cocoapods/l/FAJsonParser.svg?style=flat)](http://cocoapods.org/pods/FAJsonParser)
 [![Platform](https://img.shields.io/cocoapods/p/FAJsonParser.svg?style=flat)](http://cocoapods.org/pods/FAJsonParser)
